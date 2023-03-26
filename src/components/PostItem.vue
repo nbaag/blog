@@ -11,5 +11,12 @@
 .postContainer {
   max-width: 600px;
   border: solid 2px palevioletred;
+  padding: 10px;
+  flex-grow: 1;
+}
+
+.postTitle {
+  font-size: 26px;
+  margin-bottom: 10px;
 }
 </style>

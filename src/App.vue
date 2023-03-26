@@ -1,8 +1,10 @@
 <script setup>
 import PostItem from "./components/PostItem.vue";
+import MainHeader from "./components/MainHeader.vue";
 </script>
 
 <template>
+  <MainHeader />
   <div class="container">
     <PostItem />
   </div>
@@ -12,6 +14,6 @@ import PostItem from "./components/PostItem.vue";
 .container {
   display: flex;
   margin: 0 auto;
-  max-width: 800px;
+  max-width: 600px;
 }
 </style>
