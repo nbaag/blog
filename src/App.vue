@@ -3,7 +3,15 @@ import PostItem from "./components/PostItem.vue";
 </script>
 
 <template>
-  <PostItem />
+  <div class="container">
+    <PostItem />
+  </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+.container {
+  display: flex;
+  margin: 0 auto;
+  max-width: 800px;
+}
+</style>
